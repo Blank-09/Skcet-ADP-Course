@@ -1,0 +1,34 @@
+<ul>
+  <li><a href="#first">First Container</a></li>
+  <li><a href="#second">Second Container</a></li>
+  <li><a href="#third">Third Container</a></li>
+</ul>
+
+<div id="first">This is the First container Component</div>
+
+<div id="second">This is the Second container Component</div>
+
+<div id="third" style="display: flex">
+  <p style="margin-top: auto">This is the Third container Component</p>
+</div>
+
+<style>
+  /* In CSS */
+  div,
+  ul {
+    width: 100%;
+    height: 100vh;
+  }
+</style>
+
+<script>
+  // Not Necessary! Please Ignore!
+  document.querySelectorAll('a[href^="#"]').forEach((a) => {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+</script>

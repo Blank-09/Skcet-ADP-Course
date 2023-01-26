@@ -1,0 +1,26 @@
+<ul>
+  <li><a href="#birds">Birds Section</a></li>
+  <li><a href="#birds">Ducks Section</a></li>
+</ul>
+
+<p id="birds">This is the article about birds.</p>
+
+<style>
+  /* In CSS */
+
+  ul {
+    min-height: 100vh;
+  }
+</style>
+
+<script>
+  // Not Necessary! Please Ignore!
+  document.querySelectorAll('a[href^="#"]').forEach((a) => {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+</script>
