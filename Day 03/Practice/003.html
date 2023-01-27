@@ -1,0 +1,44 @@
+<form>
+  <h1>Mission Information</h1>
+  <table width="100%" cellspacing='5'>
+      <tr>
+          <td><label for="shipName">Ship Name:</label></td>
+          <td><input  id="shipName" type="text" /></td>
+      </tr>
+      <tr>
+          <td><label for="tripName">Trip Date:</label></td>
+          <td><input  id="tripName" type="date" /></td>
+      </tr>
+      <tr><td>Mission Goals:</td></tr>
+      <tr>
+          <td>
+              <input type="checkbox" id="exploration" />
+              <label for="exploration">Exploration</label>
+          </td>
+          <td>
+              <input type="checkbox" id="contact" />
+              <label for="contact">Contact</label>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label>Crew species:</label>
+          </td>
+          <td>
+              <select size='4'>
+                  <option value="Xebrax">Xebrax</option>
+                  <option value="Snertal">Snertal</option>
+                  <option value="Gosny">Gosny</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>Any additional comments?</td>
+          <td>
+              <textarea rows="5" cols="25">Write additional comments here...</textarea>
+              <br>
+              &emsp;<button>Submit</button>
+          </td>
+      </tr>
+  </table>
+</form>
