@@ -1,6 +1,10 @@
+:root {
+  --cell-size: 100px;
+}
+
 .row div {
-  width: 30px;
-  height: 30px;
+  width: var(--cell-size);
+  height: var(--cell-size);
   border: 1px solid black;
 }
 
