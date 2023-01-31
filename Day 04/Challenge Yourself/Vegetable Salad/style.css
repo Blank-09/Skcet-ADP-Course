@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0;
+
+  background-color: #a7e6af;
+  color: #4b0a83;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: #5500ff;
+  font-size: 1.75rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px solid #d502ff;
+  padding: 1rem 0;
+}
+
+#titleName {
+  color: #4b0a83;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
