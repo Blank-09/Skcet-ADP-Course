@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Friends Book</title>
+  </head>
+
+  <body>
+    <img id="backgroundImage" src="./Img/fireflies.jpg" alt="fireflies" />
+
+    <div class="container">
+      <h1 id="TitleName">FRIENDS BOOK</h1>
+      <form action="#">
+        <label for="textBox" id="yourName">Your Name: </label>
+        <input type="text" id="textBox" />
+
+        <br />
+
+        <ol>
+          <li>
+            <label for="textBox1" id="field1">A message for me!</label>
+            <br />
+            <textarea
+              name="message"
+              id="textBox1"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </li>
+          <li>
+            <label for="textBox2">A nick name for me!</label>
+            <br />
+            <textarea
+              name="message"
+              id="textBox2"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </li>
+          <li>
+            <p>Have you ever lied to me?</p>
+            <br />
+            <input id="yesMayBe" type="radio" name="lied" />
+            <label for="yesMayBe">Yes</label>
+            <input type="radio" name="lied" id="maybe" />
+            <label for="maybe">Maybe</label>
+          </li>
+          <li>
+            <p>How do you feel when you talk to me?</p>
+            <br />
+            <input type="radio" name="happy" id="happy" />
+            <label for="happy">Happy</label>
+            <input type="radio" name="happy" id="irritated" />
+            <label for="irritated">Irritated</label>
+          </li>
+          <li>
+            <p>Do you like to go on a roadtrip with me?</p>
+            <br />
+            <input type="radio" name="roadtrip" id="yes2" />
+            <label for="yes2">Yes</label>
+            <input type="radio" name="roadtrip" id="no2" />
+            <label for="no2">No</label>
+          </li>
+          <li>
+            <p>Best colour that suits me?</p>
+            <br />
+            <input type="checkbox" name="color" id="bestColour" />
+            <label for="bestColour">Red</label>
+            <input type="checkbox" name="color" id="black" />
+            <label for="black">Black</label>
+            <input type="checkbox" name="color" id="white" />
+            <label for="white">White</label>
+            <input type="checkbox" name="color" id="blue" />
+            <label for="blue">Blue</label>
+            <input type="checkbox" name="color" id="green" />
+            <label for="green">Green</label>
+          </li>
+          <li>
+            <label for="textBox3">The best moment in our Friendship?</label>
+            <br />
+            <textarea
+              name="message"
+              id="textBox3"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </li>
+        </ol>
+      </form>
+    </div>
+  </body>
+</html>
