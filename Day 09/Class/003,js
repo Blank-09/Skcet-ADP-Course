@@ -1,0 +1,9 @@
+function addTwoNumbers(a, b) {
+  return a + b;
+}
+
+// Footer
+
+let a = addTwoNumbers(5,3);
+let b = addTwoNumbers(15,23);
+console.log(addTwoNumbers(a,b));
