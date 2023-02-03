@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+::selection {
+  background: #377dff1a;
+  color: #377dff;
+}
+
+body {
+  background-color: #ff2e63;
+  margin: 0;
+
+  display: grid;
+  place-content: center;
+}
+
+.input-group {
+  width: 70vw !important;
+  max-width: 600px !important;
+}
+
+svg {
+  width: 25px;
+}

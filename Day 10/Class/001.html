@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Weather API</title>
+  </head>
+  <body class="text-center text-white user-select-none">
+    <h1 class="display-4 fw-semibold mb-3">Weather API</h1>
+
+    <form>
+      <div class="row gx-2">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            id="text"
+            class="form-control form-control-lg shadow-sm"
+            placeholder="Enter Your Location"
+          />
+          <button
+            class="btn btn-lg btn-dark shadow fs-4 d-flex align-items-center"
+            type="submit"
+          >
+            <div id="cloud">☁</div>
+            <div id="spinner" class="spinner-border spinner-border-sm d-none"></div>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <table class="table text-white d-none">
+      <thead>
+        <tr>
+          <th>Feel Like</th>
+          <th>Humidity</th>
+          <th>Pressure</th>
+          <th>Temperature</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="output">
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
