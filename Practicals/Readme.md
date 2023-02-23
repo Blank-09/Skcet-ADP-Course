@@ -1,6 +1,6 @@
 # ADP MODEL EXAM QUESTION PAPER AND ANSWER
 
-### Questions 1:
+### Question 1:
 
 Create a web page to demonstrate the usage of basic text formatting tags, structural tags of HTML. (Ref (CW - 1): [question 2](../Day%2001/Class/002.html), [question 3](../Day%2001/Class/003.html))
 
@@ -100,7 +100,7 @@ Add an image to your page as shown below. (Ref(CW - 2): [Question 3](../Day%2002
 
 ---
 
-### Questions 3
+### Question 3
 
 Using the anchor tag navigate to the end of the page. (Ref (CY - 2): [Question 2](../Day%2002/Challenge%20Youreslf/002.html))
 
@@ -140,7 +140,7 @@ Using the anchor tag navigate to the end of the page. (Ref (CY - 2): [Question 2
 
 ---
 
-### Questions 4
+### Question 4
 
 Write code to create the following form. Apply basic validation such that User Name and Email are mandatory to be filed, Country code can only contain 3 alphabets and password field can contain 6 or more characters. (Reference: Day 3 Challenge Yourself ) (Ref (CY - 3): [Question 1](../Day%2003/Challenge/001.html))
 
@@ -236,7 +236,7 @@ please enter your additional remarks (if any)</textarea
 ```
 
 ---
-### Questions 5
+### Question 5
 Design web pages using lists and tables.
 
 ### Answer
@@ -246,7 +246,7 @@ Design web pages using lists and tables.
 ```
 
 ---
-### Questions 6
+### Question 6
 Create a Form with below data. (Ref (CY - 3): [Question 2](../Day%2003/Challenge/002.html))
 
 ![Output Sample](./img/img-3.png)
@@ -306,7 +306,7 @@ Create a Form with below data. (Ref (CY - 3): [Question 2](../Day%2003/Challenge
 ```
 
 ---
-### Questions 7
+### Question 7
 Panta figs Events Services has an all-in-one event management platform that enables to impeccably manage event from beginning to end within one system. Yaserkhan, the Creative Team Head wanted you to redesign their official web page in such a way that the Supported Events ae numbered using odd numbers and the Corporate Events are numbered using even numbers.Write a program to create html page that will display the supported events with odd numbers and the corporate events with even numbers inside specific div id’s. (Ref (PH - 2): [Question 1](../Day%2002/Practice/001.html))
 
 ![Output Sample](./img/img-4.png)
@@ -348,7 +348,7 @@ Panta figs Events Services has an all-in-one event management platform that enab
 ```
 
 ---
-### Questions 8
+### Question 8
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice.  (Ref (CW - 4): [Question 1](../Day%2004/Class/Chess-Board-Project/index.html))
 
 ![Chess Board Image](./img/img-5.png)
@@ -357,7 +357,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 [Click here for answers](../Day%2004/Class/Chess-Board-Project)
 
 ---
-### Questions 9
+### Question 9
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice (Ref (CY - 4): [Question 2](../Day%2004/Challenge%20Yourself/Vegetable%20Salad/index.html))
 
 ![Alt text](./img/img-6.png)
@@ -366,14 +366,14 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 [Click here for answers](../Day%2004/Challenge%20Yourself/Vegetable%20Salad)
 
 ---
-### Questions 10
+### Question 10
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. (Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html))
 
 ### Answer
 [Click here for answers](../Day%2004/Practice/Fav%20Food)
 
 ---
-### Questions 11
+### Question 11
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. (Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html))
 
 ![Alt text](img/img-7.png)
@@ -382,7 +382,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 [Click here for answers](../Day%2004/Practice/Fav%20Food)
 
 ---
-### Questions 11
+### Question 11
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice.Use the tag header, section, nav tags and style them using CSS as shown in the sample output page. 
 
 (Ref (CW - 4): [Question 1](../Day%2005/Class/MyProfilePage/index.html))
@@ -395,7 +395,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 [Click here for answers](../Day%2005/Class/MyProfilePage/)
 
 ---
-### Questions 12
+### Question 12
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. Use the tag header, section, nav and style them using CSS as shown in the sample output page.
 
 (Ref (DC - 7): [Question 1](../Day%2007/Daily%20Challenge/The%20University%20Page/index.html))
@@ -405,12 +405,279 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 ### Answer
 [Click here for answers](../Day%2007/Daily%20Challenge/The%20University%20Page/index.html)
 
-<!-- ---
-### Questions 8
-Using the anchor tag navigate to the end of the page. (Ref (CY - 2): [Question 2](../Day%2002/Challenge%20Youreslf/002.html))
+
+---
+### Question 13
+Write a program to check whether the given number is odd or even
+
+**Input format:** An Integer input
+
+**Output format:** Print odd or even as shown in the sample output
 
 ### Answer
+```js
+function oddOrEven(number) {
+  console.log("The number is", number % 2 ? "odd." : "even.");
+};
 
-```html
+oddOrEven(33); // Odd
+oddOrEven(6);  // Even
+```
 
-``` -->
+---
+### Question 14
+Write a program to check whether the given number is an Armstrong number or not.
+
+**Input format:** An Integer
+
+**Output format:** Print Armstrong number or not along with the number as shown in the sample output
+
+### Answer
+```js
+function isArmstrong(number) {
+  var armstrongNumber = number
+    .toString()
+    .split("")
+    .reduce((a, b) => a + Math.pow(b, 3), 0);
+
+  if (armstrongNumber == number)
+    console.log(number + " is an Armstrong number");
+  else
+    console.log(number + " is not an Armstrong number.");
+
+};
+
+isArmstrong(153); // Armstrong number
+isArmstrong(12); // Not an Armstrong number
+```
+
+---
+### Question 15
+Write a program to check pass or fail. Get the score as input from user and display Pass or Fail in the exam.
+
+**Input format:** An Integer as an input
+
+**Output format:** Print pass or fail as shown in the sample output
+
+### Answer
+```js
+function hasPassed(marks) {
+  const passOrFail = marks >= 40 ? "pass" : "fail";
+  console.log(`You ${passOrFail} the exam.`);
+};
+
+hasPassed(81); // Passed
+hasPassed(12); // Failed
+```
+
+---
+### Question 16
+Write a program to print Fibonacci Series.
+
+**Input format:** An Integer as an input
+
+**Output format:** Fibonacci Series upto given range.
+
+### Answer
+```js
+function printFibonacci(number) {
+  let prev = 0;
+  let curr = 1;
+
+  while (number--) {
+    console.log(prev);
+    var sum = prev + curr;
+    prev = curr;
+    curr = sum;
+  }
+};
+
+printFibonacci(6); // 0 1 1 2 3 5
+printFibonacci(3); // 0 1 1
+```
+
+---
+### Question 17
+Write a program to find the factorial of the given number.
+
+**Input format:** An Integer as an input
+
+**Output format:** Factorial of the given number
+
+### Answer
+```js
+function printFactorial(number) {
+  let fact = 1;
+
+  for (let i = 1; i <= number; i++) {
+    fact *= i;
+  }
+
+  console.log(fact);
+};
+
+printFactorial(5); // 120
+printFactorial(4); // 24
+```
+
+---
+### Question 18
+A newly appointed Vice-Chancellor of Anna University wanted to create an automated grading system for the students to check their grades. When a student enters a mark, the grading system displays the corresponding grade. Write a program to solve the given problem. The grades for marks 
+
+  - 100 – S
+  - 90 – 99 is A
+  - 80 – 89 is B
+  - 70 – 79 is C
+  - 60 – 69 is D
+  - 50 – 59 is E and 
+  - Less than 50 is F
+
+**Input format:** The input consists of one integer which corresponds to the marks scored by the student
+
+**Output format:** If a student mark is greater than 100, print "invalid input". Otherwise, print the grade.
+
+### Answer
+```js
+function printGrade(mark) {
+  if (mark < 0 || mark > 100) {
+    return console.log("Invalid Input");
+  }
+
+  var grade;
+
+  if (mark == 100)
+    grade = "S";
+
+  else if (90 <= mark && mark <= 99)
+    grade = "A";
+
+  else if (80 <= mark && mark <= 89)
+    grade = "B";
+
+  else if (70 <= mark && mark <= 79)
+    grade = "C";
+
+  else if (60 <= mark && mark <= 69)
+    grade = "D";
+
+  else if (50 <= mark && mark <= 59)
+    grade = "E";
+
+  else
+    grade = "F";
+
+  console.log(grade);
+};
+
+printGrade(100); // S
+printGrade(70); // C
+printGrade(4); // F
+```
+
+---
+### Question 19
+Write a JavaScript program to check whether the given year is Leap year or not.
+
+### Answer
+```js
+function isLeapYear(number) {
+  if (year % 400 == 0 || year % 100 != 0 && year % 4 == 0)
+    console.log("Leap Year");
+  else 
+    console.log("Not a leap year");
+};
+
+isLeapYear(2022); // Not a leap year
+isLeapYear(2020); // Leap year
+```
+
+---
+### Question 20
+Write a JavaScript Program to Display the Multiplication Table
+
+### Answer
+```js
+process.stdin.on("data", (number) => {
+
+  /* Code Starts From here */
+
+  for (let i = 1; i <= 20; i++) {
+    console.log(`${number} * ${i} = ${number * i}`);
+  }
+
+  /* Code Ends here */
+
+  process.exit();
+});
+```
+
+---
+### Question 21
+Write a program to print the given number in words using switch case
+
+**Input format:** The input consists of an integer.
+
+**Output format:** The output prints the number in words. 
+
+**Sample Test Case:**
+  - Input: `11`
+  - Output: `one one`
+
+(Reference: Day 12 - Class Work)
+
+### Answer
+#### **In Bash**
+```sh
+read num
+res=""
+
+while [ $num -gt 0 ]
+do
+  dig=$(( $num%10 ))
+  
+  case $dig in
+    0) res="zero "$res ;;
+    1) res="one "$res ;;
+    2) res="two "$res ;;
+    3) res="three "$res ;;
+    4) res="four "$res ;;
+    5) res="five "$res ;;
+    6) res="six "$res ;;
+    7) res="seven "$res ;;
+    8) res="eight "$res ;;
+    9) res="nine "$res ;;
+  esac
+
+  num=$(( $num/10 ))
+done
+
+echo $res
+```
+
+#### **In Javascript**
+```js
+let num = 0;
+let res = "";
+
+while (num > 0) {
+  const digit = num % 10;
+
+  switch (digit) {
+    case 0: res="zero "  +res; break;
+    case 1: res="one "   +res; break;
+    case 2: res="two "   +res; break;
+    case 3: res="three " +res; break;
+    case 4: res="four "  +res; break;
+    case 5: res="five "  +res; break;
+    case 6: res="six "   +res; break;
+    case 7: res="seven " +res; break;
+    case 8: res="eight " +res; break;
+    case 9: res="nine "  +res; break;
+  }
+
+  num = Math.floor(num/10);
+}
+
+console.log(res);
+```
+---
