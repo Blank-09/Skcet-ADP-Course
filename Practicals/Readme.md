@@ -220,9 +220,7 @@ Write code to create the following form. Apply basic validation such that User N
         <label>Remarks</label>
       </td>
       <td>
-        <textarea rows="10" cols="30">
-please enter your additional remarks (if any)</textarea
-        >
+        <textarea rows="10" cols="30">please enter your additional remarks (if any)</textarea>
       </td>
     </tr>
     <tr>
@@ -367,13 +365,6 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 ### Question 10
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. [Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html)]
 
-### Answer
-[Click here for answers](../Day%2004/Practice/Fav%20Food)
-
----
-### Question 11
-Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. [Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html)]
-
 ![Alt text](img/img-7.png)
 
 ### Answer
@@ -402,7 +393,6 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 
 ### Answer
 [Click here for answers](../Day%2007/Daily%20Challenge/The%20University%20Page/index.html)
-
 
 ---
 ### Question 13
