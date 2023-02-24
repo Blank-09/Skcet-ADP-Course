@@ -239,8 +239,59 @@ Design web pages using lists and tables.
 
 ### Answer
 
+The contents are up to your 
+
 ```html
-<!-- Code Will be uploaded soon... -->
+<!-- Design lists -->
+<div id="CommonEvents">
+  <h2>Supported Events</h2>
+
+  <ol>
+      <li>Concerts</li>
+      <li>Conferences</li>
+      <li>Films</li>
+      <li>Panel Debates</li>
+      <li>Performances</li>
+      <li>Seminars</li>
+      <li>Talks & Discussions</li>
+      <li>Workshops</li>
+  </ol>
+</div>
+
+<div id="CorporateEvents">
+  <h2>Corporate Events</h2>
+
+  <ol>
+      <li>Team Building Events</li>
+      <li>Trade Shows</li>
+      <li>Business Dinners</li>
+      <li>Networking Events</li>
+      <li>Opening Ceremonies</li>
+      <li>Product Launches</li>
+      <li>Theme Parties</li>
+      <li>Shareholder Meetings</li>
+  </ol>
+</div>
+
+<!-- Design tables -->
+<table cellpadding="5">
+  <tr>
+    <th>The Planets</th>
+    <th>The Oceans</th>
+    <th>The Deserts</th>
+  </tr>
+  <tr>
+    <td>Earth</td>
+    <td>Pacific</td>
+    <td>Sahara</td>
+  </tr>
+  <tr>
+    <td>Pluto</td>
+    <td>Atlantic</td>
+    <td>Gobi</td>
+  </tr>
+</table>
+
 ```
 
 ---
