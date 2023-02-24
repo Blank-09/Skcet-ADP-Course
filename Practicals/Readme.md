@@ -2,7 +2,7 @@
 
 ### Question 1:
 
-Create a web page to demonstrate the usage of basic text formatting tags, structural tags of HTML. (Ref (CW - 1): [question 2](../Day%2001/Class/002.html), [question 3](../Day%2001/Class/003.html))
+Create a web page to demonstrate the usage of basic text formatting tags, structural tags of HTML. [Ref (CW - 1): [question 2](../Day%2001/Class/002.html), [question 3](../Day%2001/Class/003.html)]
 
 ### Answer:
 
@@ -60,7 +60,7 @@ Create a web page to demonstrate the usage of basic text formatting tags, struct
 
 ### Question 2
 
-Add an image to your page as shown below. (Ref(CW - 2): [Question 3](../Day%2002/Class/003.html))
+Add an image to your page as shown below. [Ref(CW - 2): [Question 3](../Day%2002/Class/003.html)]
 
 ![Output Sample Image](./img/img-1.png)
 
@@ -102,7 +102,7 @@ Add an image to your page as shown below. (Ref(CW - 2): [Question 3](../Day%2002
 
 ### Question 3
 
-Using the anchor tag navigate to the end of the page. (Ref (CY - 2): [Question 2](../Day%2002/Challenge%20Youreslf/002.html))
+Using the anchor tag navigate to the end of the page. [Ref (CY - 2): [Question 2](../Day%2002/Challenge%20Youreslf/002.html)]
 
 ### Answer
 
@@ -142,7 +142,7 @@ Using the anchor tag navigate to the end of the page. (Ref (CY - 2): [Question 2
 
 ### Question 4
 
-Write code to create the following form. Apply basic validation such that User Name and Email are mandatory to be filed, Country code can only contain 3 alphabets and password field can contain 6 or more characters. (Reference: Day 3 Challenge Yourself ) (Ref (CY - 3): [Question 1](../Day%2003/Challenge/001.html))
+Write code to create the following form. Apply basic validation such that User Name and Email are mandatory to be filed, Country code can only contain 3 alphabets and password field can contain 6 or more characters. [Reference: Day 3 Challenge Yourself ) [Ref (CY - 3): [Question 1](../Day%2003/Challenge/001.html)]
 
 ![Output Sample](./img/img-2.png)
 
@@ -247,7 +247,7 @@ Design web pages using lists and tables.
 
 ---
 ### Question 6
-Create a Form with below data. (Ref (CY - 3): [Question 2](../Day%2003/Challenge/002.html))
+Create a Form with below data. [Ref (CY - 3): [Question 2](../Day%2003/Challenge/002.html)]
 
 ![Output Sample](./img/img-3.png)
 
@@ -307,49 +307,47 @@ Create a Form with below data. (Ref (CY - 3): [Question 2](../Day%2003/Challenge
 
 ---
 ### Question 7
-Panta figs Events Services has an all-in-one event management platform that enables to impeccably manage event from beginning to end within one system. Yaserkhan, the Creative Team Head wanted you to redesign their official web page in such a way that the Supported Events ae numbered using odd numbers and the Corporate Events are numbered using even numbers.Write a program to create html page that will display the supported events with odd numbers and the corporate events with even numbers inside specific div id’s. (Ref (PH - 2): [Question 1](../Day%2002/Practice/001.html))
+Panta figs Events Services has an all-in-one event management platform that enables to impeccably manage event from beginning to end within one system. Yaserkhan, the Creative Team Head wanted you to redesign their official web page in such a way that the Supported Events ae numbered using odd numbers and the Corporate Events are numbered using even numbers. Write a program to create html page that will display the supported events with `odd numbers` and the corporate events with `even numbers` inside specific div id’s. [Ref (PH - 2): [Question 2](../Day%2002/Practice/002.html)]
 
 ![Output Sample](./img/img-4.png)
 
 ### Answer
 
 ```html
-<h1>Event Schedule List</h1>
-
 <div id="CommonEvents">
-    <h2>Supported Events</h2>
+  <h2>Supported Events</h2>
 
-    <ul type="circle">
-        <li>Concerts</li>
-        <li>Conferences</li>
-        <li>Films</li>
-        <li>Panel Debates</li>
-        <li>Performances</li>
-        <li>Seminars</li>
-        <li>Talks & Discussions</li>
-        <li>Workshops</li>
-    </ul>
+  <ol>
+      <li value="1">Concerts</li>
+      <li value="3">Conferences</li>
+      <li value="5">Films</li>
+      <li value="7">Panel Debates</li>
+      <li value="9">Performances</li>
+      <li value="11">Seminars</li>
+      <li value="13">Talks & Discussions</li>
+      <li value="15">Workshops</li>
+  </ol>
 </div>
 
-<div id="CorporatesEvents">
-    <h2>Corporate Events</h2>
+<div id="CorporateEvents">
+  <h2>Corporate Events</h2>
 
-    <ul type="square">
-        <li>Team Building Events</li>
-        <li>Trade Shows</li>
-        <li>Business Dinners</li>
-        <li>Networking Events</li>
-        <li>Opening Ceremonies</li>
-        <li>Product Launches2018</li>
-        <li>Theme Parties</li>
-        <li>Shareholder Meetings</li>
-    </ul>
+  <ol>
+      <li value="2">Team Building Events</li>
+      <li value="4">Trade Shows</li>
+      <li value="6">Business Dinners</li>
+      <li value="8">Networking Events</li>
+      <li value="10">Opening Ceremonies</li>
+      <li value="12">Product Launches</li>
+      <li value="14">Theme Parties</li>
+      <li value="16">Shareholder Meetings</li>
+  </ol>
 </div>
 ```
 
 ---
 ### Question 8
-Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice.  (Ref (CW - 4): [Question 1](../Day%2004/Class/Chess-Board-Project/index.html))
+Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice.  [Ref (CW - 4): [Question 1](../Day%2004/Class/Chess-Board-Project/index.html)]
 
 ![Chess Board Image](./img/img-5.png)
 
@@ -358,7 +356,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 
 ---
 ### Question 9
-Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice (Ref (CY - 4): [Question 2](../Day%2004/Challenge%20Yourself/Vegetable%20Salad/index.html))
+Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice [Ref (CY - 4): [Question 2](../Day%2004/Challenge%20Yourself/Vegetable%20Salad/index.html)]
 
 ![Alt text](./img/img-6.png)
 
@@ -367,14 +365,14 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 
 ---
 ### Question 10
-Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. (Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html))
+Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. [Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html)]
 
 ### Answer
 [Click here for answers](../Day%2004/Practice/Fav%20Food)
 
 ---
 ### Question 11
-Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. (Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html))
+Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. [Ref (PH - 4): [Question 1](../Day%2004/Practice/Fav%20Food/index.html)]
 
 ![Alt text](img/img-7.png)
 
@@ -385,7 +383,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 ### Question 11
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice.Use the tag header, section, nav tags and style them using CSS as shown in the sample output page. 
 
-(Ref (CW - 4): [Question 1](../Day%2005/Class/MyProfilePage/index.html))
+[Ref (CW - 4): [Question 1](../Day%2005/Class/MyProfilePage/index.html)]
 
 ![Sample Output](img/img-8.png)
 
@@ -398,7 +396,7 @@ Design a layout given using HTML and CSS, which should be similar to the sample 
 ### Question 12
 Design a layout given using HTML and CSS, which should be similar to the sample output. You should use the same tags and it's id given but the styling part is up to your choice. Use the tag header, section, nav and style them using CSS as shown in the sample output page.
 
-(Ref (DC - 7): [Question 1](../Day%2007/Daily%20Challenge/The%20University%20Page/index.html))
+[Ref (DC - 7): [Question 1](../Day%2007/Daily%20Challenge/The%20University%20Page/index.html)]
 
 ![Sample Output](img/img-10.png)
 
@@ -623,7 +621,7 @@ Write a program to print the given number in words using switch case
   - Input: `11`
   - Output: `one one`
 
-(Reference: Day 12 - Class Work)
+[Reference: Day 12 - Class Work]
 
 ### Answer
 #### **In Bash**
